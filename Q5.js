@@ -1,4 +1,4 @@
-class Book{
+class Books{
   constructor(title,author){
     this.title=title;
     this.author=author;
@@ -10,9 +10,9 @@ class Book{
     return (`Author:${this.author}`);
   }
 }
-var PP=new Book("Pride and Prejudice","Jane Austen");
-var H=new Book("Hamlet","William Shakespeare");
-var WP=new Book("War And Peace","Leo Tolstoy");
+var PP=new Books("Pride and Prejudice","Jane Austen");
+var H=new Books("Hamlet","William Shakespeare");
+var WP=new Books("War And Peace","Leo Tolstoy");
 console.log(PP.getTitle())
 console.log(PP.getAuthor())
 console.log(PP.title)
